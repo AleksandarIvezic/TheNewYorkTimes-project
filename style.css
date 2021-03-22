@@ -28,8 +28,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
-  
 }
 
 a:hover {
@@ -45,6 +43,8 @@ button:hover,a:hover,img:hover {
                 ****** GLOBAL ******
     ==============================================
 */
+
+/* Navbar section */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -79,3 +79,64 @@ button:hover,a:hover,img:hover {
 .btn:hover {
   background-color: #326891;
 }
+
+/* Main section */
+.container {
+  width: 1200px;
+  text-align: center;
+}
+.header {
+  width:1200px;
+  margin: 0 auto;
+}
+.heading {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+h1 {
+  margin: 20px auto;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.social-networks {
+  margin-top: 20px;
+}
+.social-net {
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+  color:black;
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 3px;
+  text-align: center;
+  padding-top: 5px;
+  margin: 5px;
+}
+.social-net:hover {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.icon {
+  color: black;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+.heading-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+figure {
+  display:block;
+  max-width: 100%;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.small-font {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
