@@ -29,10 +29,15 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  
 }
 
 a:hover {
   color: #333;
+}
+
+button:hover,a:hover,img:hover {
+  cursor: pointer;
 }
 
 /*
@@ -40,3 +45,37 @@ a:hover {
                 ****** GLOBAL ******
     ==============================================
 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.btn-nav {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+}
+.btn-nav:hover{
+  background-color: #F7F7F7 ;
+}
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+.nav-link:hover {
+  text-decoration: underline;  
+}
+.img-nav {
+  height: 2.2rem;
+}
+.btn {
+  background-color: #567B95;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.btn:hover {
+  background-color: #326891;
+}
