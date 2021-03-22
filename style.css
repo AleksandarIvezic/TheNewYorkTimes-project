@@ -82,6 +82,7 @@ p {
 
 /* Main section */
 .container {
+  display: flex;
   width: 1200px;
   text-align: center;
 }
@@ -161,12 +162,13 @@ figure {
 }
 .container {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto;  
 }
 .article {
   width: 600px;
   margin: 0 auto;
   text-align: left;
+  justify-self: center;
 }
 .sign-up {
   text-align: left;
@@ -196,6 +198,9 @@ transition: ease .5s;
   
   text-decoration: none;
 }
+.article h2 {
+  margin: 15px 0;
+}
 .subscribe {
   text-align: center;  
   font-style: 0.8rem;
@@ -217,4 +222,40 @@ transition: ease .5s;
   height: 1px;
   background-color: darkgrey;
   margin: 15px auto;
+}
+.picks {
+  display: flex;
+  flex-direction: column;
+  justify-self: right;
+  align-self: center;
+  justify-items: left;
+  width: 250px;
+  text-align: left;
+}
+.picks h5 {
+  margin-bottom: 5px;
+}
+.pick {
+  float: right;
+  display: block;
+  max-width: 200px;
+  margin: 10px auto;
+}
+.img-pick {
+  width: 80px;
+  height: 80px;
+}
+.pick a {
+  display: flex;
+}
+.pick p {
+  font-size: 1rem;
+  line-height: 1rem;
+  align-self: center;
+  margin: 0;
+  margin-left: 5px;
+  color:black;
+}
+.pick p:hover {
+  text-decoration: underline;
 }
