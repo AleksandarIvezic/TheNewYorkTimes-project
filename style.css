@@ -7,11 +7,6 @@ body {
   margin: 0;
 }
 
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
-}
-
 *,
 *::before,
 *::after {
@@ -36,6 +31,11 @@ a:hover {
 
 button:hover,a:hover,img:hover {
   cursor: pointer;
+}
+p {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 
 /*
@@ -158,4 +158,63 @@ figure {
 .date {
   font-size: 0.9rem;
   margin-bottom: 40px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.article {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+.sign-up {
+  text-align: left;
+  display: flex; 
+  justify-content: space-between;
+}
+.sign-up p {
+  width: 85%;
+}
+.sign-up button {
+height: 2rem;
+padding: 10px 10px;
+background: white;
+border: black 1px solid;
+font-weight: bold;
+}
+.sign-up button:hover {
+color: white;
+background: black;
+transition: ease .5s;
+}
+.article a {
+  color:#326891;
+  text-decoration: underline;
+}
+.article a:hover {
+  
+  text-decoration: none;
+}
+.subscribe {
+  text-align: center;  
+  font-style: 0.8rem;
+  line-height: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold ;
+}
+.subscribe p {
+  font-size: 1rem;
+  margin: 0;
+}
+.subscribe a {
+  text-decoration: none;
+}
+.s-line {
+  content:"";
+  width: 80px;
+  height: 1px;
+  background-color: darkgrey;
+  margin: 15px auto;
 }
