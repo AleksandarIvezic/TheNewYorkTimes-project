@@ -291,3 +291,25 @@ transition: ease .5s;
   margin: 15px auto 15px 0;
   background-color: black;
 }
+.s-font {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article .links {
+  display: flex;  
+}
+#comments-btn {
+  width: 50%;
+  height: 2.5rem;
+}
+.links .social-networks {
+  margin-top: 0;
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+}
+.bottom a {
+  color:black
+}
