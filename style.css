@@ -287,3 +287,7 @@ transition: ease .5s;
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.align-left {
+  margin: 15px auto 15px 0;
+  background-color: black;
+}
