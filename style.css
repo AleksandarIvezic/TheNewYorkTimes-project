@@ -82,9 +82,13 @@ p {
 
 /* Main section */
 .container {
-  display: flex;
+  margin: 0 auto; 
   width: 1200px;
   text-align: center;
+}
+.flex-container {
+  display: flex;
+  width: 100%;
 }
 .header {
   width:1200px;
@@ -128,12 +132,8 @@ h1 {
 .heading-img {
   width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 figure {
-  display:block;
-  max-width: 100%;
-  flex-direction: column;
   margin-top: 20px;
 }
 .small-font {
@@ -160,15 +160,10 @@ figure {
   font-size: 0.9rem;
   margin-bottom: 40px;
 }
-.container {
-  width: 1200px;
-  margin: 0 auto;  
-}
 .article {
   width: 600px;
   margin: 0 auto;
   text-align: left;
-  justify-self: center;
 }
 .sign-up {
   text-align: left;
@@ -258,4 +253,8 @@ transition: ease .5s;
 }
 .pick p:hover {
   text-decoration: underline;
+}
+.helper {
+  content:"";
+  width: 250px;
 }
