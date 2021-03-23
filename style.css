@@ -372,6 +372,7 @@ article .links {
   padding: 10px;
   margin-top: 20px;
   text-align: left;
+  justify-content: space-between;
 }
 
 .box-news {
@@ -395,7 +396,9 @@ article .links {
 }
 
 .most-popular {
-  width: 25%;
+  width: 27%;
+  border-top: black 1px solid;
+  padding-top: 20px;
 }
 
 .cards {
@@ -500,5 +503,22 @@ article .links {
   font-size: 0.8rem;
   color: grey;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.most-popular h4 {
+  margin-bottom: 20px;
+}
+
+.popular {
+  padding: 20px 0;
+  border-top: 1px grey solid;
+}
+.popular a {
+  font-size: 1.2rem;
+  color:black;
+}
+
+.popular a:hover {
+  opacity: 0.6;
 }
 
