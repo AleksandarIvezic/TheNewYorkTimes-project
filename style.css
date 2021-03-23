@@ -29,9 +29,10 @@ a:hover {
   color: #333;
 }
 
-button:hover,a:hover,img:hover {
+button:hover, a:hover, img:hover {
   cursor: pointer;
 }
+
 p {
   margin-bottom: 1rem;
   font-size: 1.4rem;
@@ -50,6 +51,7 @@ p {
   justify-content: space-between;
   padding: 5px;
 }
+
 .btn-nav {
   padding: 10px;
   margin: 0 5px;
@@ -57,25 +59,31 @@ p {
   border: none;
   font-size: 1rem;
 }
+
 .btn-nav:hover{
-  background-color: #F7F7F7 ;
+  background-color: #f7f7f7;
 }
+
 .nav-link {
   color: black;
   font-weight: bold;
 }
+
 .nav-link:hover {
   text-decoration: underline;  
 }
+
 .img-nav {
   height: 2.2rem;
 }
+
 .btn {
-  background-color: #567B95;
+  background-color: #567b95;
   padding: 10px;
   border-radius: 5px;
   color: white;
 }
+
 .btn:hover {
   background-color: #326891;
 }
@@ -86,28 +94,34 @@ p {
   width: 1200px;
   text-align: center;
 }
+
 .flex-container {
   display: flex;
   width: 100%;
 }
+
 .header {
   width:1200px;
   margin: 0 auto;
 }
+
 .heading {
   width: 600px;
   margin: 0 auto;
   margin-top: 40px;
 }
+
 h1 {
   margin: 20px auto;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
   font-style: italic;
 }
+
 .social-networks {
   margin-top: 20px;
 }
+
 .social-net {
   display:inline-block;
   width: 30px;
@@ -120,59 +134,73 @@ h1 {
   padding-top: 5px;
   margin: 5px;
 }
+
 .social-net:hover {
   background-color: white;
   border: 1px solid lightgray;
 }
+
 .icon {
   color: black;
   font-size: 1.5rem;
   margin: 5px;
 }
+
 .heading-img {
   width: 100%;
   height: auto;
 }
+
 figure {
   margin-top: 20px;
 }
+
 .small-font {
   opacity: 0.5;
   font-size: 0.8rem;
 }
+
 .author-info {
   max-width: 600px;
   margin: 40px auto;
 }
+
 .author {
   font-family: sans-serif;
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .author a {
   color: black;
   border-bottom: darkgrey solid 1px;  
 }
+
 .author a:hover {
   border:none;
 }
+
 .date {
   font-size: 0.9rem;
   margin-bottom: 40px;
 }
+
 .article {
   width: 600px;
   margin: 0 auto;
   text-align: left;
 }
+
 .sign-up {
   text-align: left;
   display: flex; 
   justify-content: space-between;
 }
+
 .sign-up p {
   width: 85%;
 }
+
 .sign-up button {
 height: 2rem;
 padding: 10px 10px;
@@ -180,22 +208,26 @@ background: white;
 border: black 1px solid;
 font-weight: bold;
 }
+
 .sign-up button:hover {
 color: white;
 background: black;
 transition: ease .5s;
 }
+
 .article a {
   color:#326891;
   text-decoration: underline;
 }
+
 .article a:hover {
-  
   text-decoration: none;
 }
+
 .article h2 {
   margin: 15px 0;
 }
+
 .subscribe {
   text-align: center;  
   font-style: 0.8rem;
@@ -204,13 +236,16 @@ transition: ease .5s;
   margin-top: 1rem;
   font-weight: bold ;
 }
+
 .subscribe p {
   font-size: 1rem;
   margin: 0;
 }
+
 .subscribe a {
   text-decoration: none;
 }
+
 .s-line {
   content:"";
   width: 80px;
@@ -218,6 +253,7 @@ transition: ease .5s;
   background-color: darkgrey;
   margin: 15px auto;
 }
+
 .picks {
   display: flex;
   flex-direction: column;
@@ -227,22 +263,27 @@ transition: ease .5s;
   width: 250px;
   text-align: left;
 }
+
 .picks h5 {
   margin-bottom: 5px;
 }
+
 .pick {
   float: right;
   display: block;
   max-width: 200px;
   margin: 10px auto;
 }
+
 .img-pick {
   width: 80px;
   height: 80px;
 }
+
 .pick a {
   display: flex;
 }
+
 .pick p {
   font-size: 1rem;
   line-height: 1rem;
@@ -251,19 +292,23 @@ transition: ease .5s;
   margin-left: 5px;
   color:black;
 }
+
 .pick p:hover {
   text-decoration: underline;
 }
+
 .helper {
   content:"";
   width: 250px;
 }
+
 .inflation {
   position: relative;
   width: 945px;
   margin: 0 auto;
   text-align: left;
 }
+
 .img-relative {
   position:relative;
 }
@@ -275,41 +320,49 @@ transition: ease .5s;
   left: 1px;
   z-index: 10;
 }
+
 .grid-helper {
   margin-top: 130px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
+
 .l-font {
   font-size: 0.8rem;
   line-height: 1.2rem;
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .align-left {
   margin: 15px auto 15px 0;
   background-color: black;
 }
+
 .s-font {
   font-size: 0.7rem;
   line-height: 1.2rem;
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 article .links {
   display: flex;  
 }
+
 #comments-btn {
   width: 50%;
   height: 2.5rem;
 }
+
 .links .social-networks {
   margin-top: 0;
   flex-grow: 1;
   display: flex;
   justify-content: end;
 }
+
 .bottom a {
   color:black
 }
