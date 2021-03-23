@@ -258,3 +258,32 @@ transition: ease .5s;
   content:"";
   width: 250px;
 }
+.inflation {
+  position: relative;
+  width: 945px;
+  margin: 0 auto;
+  text-align: left;
+}
+.img-relative {
+  position:relative;
+}
+
+.boxes {
+  margin-top: 80px;
+  position:absolute;
+  top: 1px;
+  left: 1px;
+  z-index: 10;
+}
+.grid-helper {
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.l-font {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
