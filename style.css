@@ -25,10 +25,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #333;
-}
-
 button:hover, a:hover, img:hover {
   cursor: pointer;
 }
@@ -613,3 +609,17 @@ article .links {
   border-bottom: lightgray 1px solid;
 }
 
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 30px 30px 30px;
+
+footer a {
+  font-size: 0.75rem;
+  color: grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
