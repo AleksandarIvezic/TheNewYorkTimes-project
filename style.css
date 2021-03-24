@@ -280,6 +280,7 @@ footer a:hover {
 
 .sign-up p {
   width: 85%;
+  font-size: 1.2rem;
 }
 
 .sign-up button {
@@ -343,7 +344,7 @@ footer a:hover {
   float: right;
   display: block;
   max-width: 200px;
-  margin: 10px auto;
+  margin: 10px 0;
 }
 
 .img-pick {
@@ -465,7 +466,7 @@ article .links {
 
 .most-popular {
   width: 27%;
-  border-top: lightgray 1px solid;
+  border-top: black 1px solid;
   padding-top: 20px;
 }
 
@@ -562,7 +563,7 @@ article .links {
 
 .popular {
   padding: 20px 0;
-  border-top: 1px grey solid;
+  border-top: 1px lightgray solid;
 }
 
 .popular a:hover {
