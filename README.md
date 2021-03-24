@@ -4,7 +4,7 @@
 
 > Microverse first week project.
 
-![screenshot](../img/Screenshot.png)
+![screenshot](https://github.com/ShinobiWarior/TheNewYorkTimes-project/blob/development/img/Screenshot%20.png?raw=true)
 
 
 
