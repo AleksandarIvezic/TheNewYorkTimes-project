@@ -35,6 +35,14 @@ hr {
   color: lightgray;
 }
 
+img {
+  width: 100%;
+}
+
+iframe {
+
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -505,7 +513,7 @@ article .links {
   transition: ease 0.6s;
 }
 
-.card > a .l-font {
+.card .l-font {
   font-size: 0.8rem;
   margin: 0;
 }
