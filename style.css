@@ -65,9 +65,7 @@ img {
   font-weight: bold;
 }
 
-a,
-.subscribe a,
-.article a:hover {
+a {
   text-decoration: none;
 }
 
@@ -153,6 +151,16 @@ article .links {
   line-height: 1.3rem;
 }
 
+.sign-up p {
+  width: 85%;
+  font-size: 1.2rem;
+}
+
+.subscribe p {
+  font-size: 1rem;
+  margin: 0;
+}
+
 button:hover,
 a:hover,
 img:hover {
@@ -165,6 +173,10 @@ footer a:hover,
 .latest:hover,
 .index-lists a:hover {
   text-decoration: underline;
+}
+
+.article a:hover {
+  text-decoration: none;
 }
 
 .img-nav {
@@ -280,11 +292,6 @@ figure {
   justify-content: space-between;
 }
 
-.sign-up p {
-  width: 85%;
-  font-size: 1.2rem;
-}
-
 .sign-up button {
   height: 2rem;
   padding: 10px 10px;
@@ -309,11 +316,6 @@ figure {
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-weight: bold;
-}
-
-.subscribe p {
-  font-size: 1rem;
-  margin: 0;
 }
 
 .s-line {
