@@ -161,9 +161,27 @@ article .links {
   margin: 0;
 }
 
+.subscribe-bar {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: black 1px solid;
+  justify-content: space-between;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+.flex-side {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
+
 button:hover,
 a:hover,
-img:hover {
+img:hover,
+.subscribe-bar:hover {
   cursor: pointer;
 }
 
@@ -374,7 +392,6 @@ figure {
   position: absolute;
   top: 1px;
   left: 1px;
-  z-index: 10;
 }
 
 .grid-helper {
@@ -382,6 +399,11 @@ figure {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
+}
+
+.xl-font {
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .l-font {
@@ -602,5 +624,5 @@ figure {
 footer ul {
   display: flex;
   justify-content: space-evenly;
-  padding: 15px 30px 30px 30px;
+  padding: 15px 30px 80px 30px;
 }
