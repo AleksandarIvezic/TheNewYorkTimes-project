@@ -4,7 +4,7 @@
 
 > Microverse first week project.
 
-![screenshot](./img/Screenshot.png)
+![screenshot](../img/Screenshot.png)
 
 
 
