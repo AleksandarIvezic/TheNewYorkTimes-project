@@ -35,6 +35,10 @@ p {
   line-height: 1.8rem;
 }
 
+hr {
+  color:lightgray;
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -56,7 +60,7 @@ p {
   font-size: 1rem;
 }
 
-.btn-nav:hover{
+.btn-nav:hover {
   background-color: #f7f7f7;
 }
 
@@ -66,7 +70,7 @@ p {
 }
 
 .nav-link:hover {
-  text-decoration: underline;  
+  text-decoration: underline;
 }
 
 .img-nav {
@@ -85,8 +89,9 @@ p {
 }
 
 /* Main section */
+
 .container {
-  margin: 0 auto; 
+  margin: 0 auto;
   width: 1200px;
   text-align: center;
 }
@@ -97,7 +102,7 @@ p {
 }
 
 .header {
-  width:1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -109,7 +114,7 @@ p {
 
 h1 {
   margin: 20px auto;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
   font-style: italic;
 }
@@ -119,16 +124,17 @@ h1 {
 }
 
 .social-net {
-  display:inline-block;
+  display: inline-block;
   width: 30px;
   height: 30px;
-  color:black;
+  color: black;
   background-color: lightgray;
   border-radius: 50%;
   padding: 3px;
   text-align: center;
   padding-top: 5px;
   margin: 5px;
+  border: 1px solid lightgray;
 }
 
 .social-net:hover {
@@ -169,11 +175,15 @@ figure {
 
 .author a {
   color: black;
-  border-bottom: darkgrey solid 1px;  
+  border-bottom: darkgrey solid 1px;
+}
+
+.bottom a {
+  color: black;
 }
 
 .author a:hover {
-  border:none;
+  border: none;
 }
 
 .date {
@@ -189,7 +199,7 @@ figure {
 
 .sign-up {
   text-align: left;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
 }
 
@@ -198,21 +208,21 @@ figure {
 }
 
 .sign-up button {
-height: 2rem;
-padding: 10px 10px;
-background: white;
-border: black 1px solid;
-font-weight: bold;
+  height: 2rem;
+  padding: 10px 10px;
+  background: white;
+  border: black 1px solid;
+  font-weight: bold;
 }
 
 .sign-up button:hover {
-color: white;
-background: black;
-transition: ease .5s;
+  color: white;
+  background: black;
+  transition: ease .5s;
 }
 
 .article a {
-  color:#326891;
+  color: #326891;
   text-decoration: underline;
 }
 
@@ -225,12 +235,11 @@ transition: ease .5s;
 }
 
 .subscribe {
-  text-align: center;  
-  font-style: 0.8rem;
+  text-align: center;
   line-height: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  font-weight: bold ;
+  font-weight: bold;
 }
 
 .subscribe p {
@@ -357,10 +366,6 @@ article .links {
   flex-grow: 1;
   display: flex;
   justify-content: end;
-}
-
-.bottom a {
-  color:black
 }
 
 .news {
@@ -613,6 +618,7 @@ footer ul {
   display: flex;
   justify-content: space-evenly;
   padding: 15px 30px 30px 30px;
+}
 
 footer a {
   font-size: 0.75rem;
