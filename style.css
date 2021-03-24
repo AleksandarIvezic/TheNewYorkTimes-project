@@ -371,8 +371,11 @@ article .links {
   display:flex;
   padding: 10px;
   margin-top: 20px;
+  margin-bottom: 1px;
+  padding-bottom: 50px;
   text-align: left;
   justify-content: space-between;
+  border-bottom: lightgray 2px solid;
 }
 
 .box-news {
@@ -520,5 +523,93 @@ article .links {
 
 .popular a:hover {
   opacity: 0.6;
+}
+
+.index {
+  border-top: 1px lightgray solid;
+  border-bottom:  1px lightgray solid ;
+  padding-top: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+}
+
+
+.index-top img{
+  float: left;
+  width: 184px;
+}
+.index-top a {
+  float: right;
+  font-size: 0.8rem;
+  padding-top: 10px;
+  color: #326891;
+}
+
+.index-top .fas {
+  font-size: 0.5rem;
+}
+
+.index-lists{
+  clear: left;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.index-lists a {
+  color: black;
+  font-size: .9rem;
+  line-height: 1.2rem;
+}
+
+.index-lists a:hover {
+  text-decoration: underline;
+}
+
+.index-lists h4 {
+  margin-bottom: 5px;
+}
+
+.index-list li {
+  margin-top: 3px;
+}
+
+#subscribe {
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+  
+}
+
+.sub-main a{
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+.sub-main{
+  margin-bottom: 20px;
+}
+
+.sub-main img {
+  width: 10px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.sub-main a > i{
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+.sub-sub {
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+.sub-sub a{
+  font-size: 0.75rem;
+}
+
+.underline {
+  border-bottom: lightgray 1px solid;
 }
 
