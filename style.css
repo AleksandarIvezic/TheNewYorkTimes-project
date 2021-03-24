@@ -25,12 +25,6 @@ a {
   text-decoration: none;
 }
 
-button:hover,
-a:hover,
-img:hover {
-  cursor: pointer;
-}
-
 p {
   margin-bottom: 1rem;
   font-size: 1.4rem;
@@ -249,6 +243,12 @@ footer a {
   margin-bottom: 0;
 }
 
+button:hover,
+a:hover,
+img:hover {
+  cursor: pointer;
+}
+
 footer a:hover {
   text-decoration: underline;
 }
@@ -353,7 +353,7 @@ footer a:hover {
   align-self: center;
   margin: 0;
   margin-left: 5px;
-  color:black;
+  color: black;
 }
 
 .card p {
@@ -560,7 +560,6 @@ article .links {
   padding: 20px 0;
   border-top: 1px grey solid;
 }
-
 
 .popular a:hover {
   opacity: 0.6;
