@@ -21,7 +21,9 @@ ul {
   list-style: none;
 }
 
-a {
+a,
+.subscribe a,
+.article a:hover {
   text-decoration: none;
 }
 
@@ -69,7 +71,11 @@ img {
   font-weight: bold;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+footer a:hover,
+.pick p:hover,
+.latest:hover,
+.index-lists a:hover {
   text-decoration: underline;
 }
 
@@ -119,7 +125,8 @@ h1 {
   font-style: italic;
 }
 
-.social-networks {
+.social-networks,
+figure {
   margin-top: 20px;
 }
 
@@ -146,15 +153,6 @@ h1 {
   color: black;
   font-size: 1.5rem;
   margin: 5px;
-}
-
-.heading-img {
-  width: 100%;
-  height: auto;
-}
-
-figure {
-  margin-top: 20px;
 }
 
 .small-font {
@@ -184,7 +182,8 @@ footer a {
   border-bottom: darkgrey solid 1px;
 }
 
-.bottom a {
+.bottom a,
+.more a {
   color: black;
 }
 
@@ -193,11 +192,8 @@ footer a {
   text-decoration: underline;
 }
 
-.subscribe a {
-  text-decoration: none;
-}
-
-.pick a {
+.pick a,
+article .links {
   display: flex;
 }
 
@@ -208,10 +204,6 @@ footer a {
 .card a {
   color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.more a {
-  color: black;
 }
 
 .popular a {
@@ -251,10 +243,6 @@ button:hover,
 a:hover,
 img:hover {
   cursor: pointer;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .author a:hover {
@@ -297,10 +285,6 @@ footer a:hover {
   transition: ease 0.5s;
 }
 
-.article a:hover {
-  text-decoration: none;
-}
-
 .article h2 {
   margin: 15px 0;
 }
@@ -336,7 +320,8 @@ footer a:hover {
   text-align: left;
 }
 
-.picks h5 {
+.picks h5,
+.index-lists h4  {
   margin-bottom: 5px;
 }
 
@@ -364,10 +349,6 @@ footer a:hover {
 .card p {
   font-size: 1.1rem;
   line-height: 1.3rem;
-}
-
-.pick p:hover {
-  text-decoration: underline;
 }
 
 .helper {
@@ -418,10 +399,6 @@ footer a:hover {
   line-height: 1.2rem;
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-article .links {
-  display: flex;
 }
 
 #comments-btn {
@@ -522,10 +499,6 @@ article .links {
   color: #326891;
 }
 
-.latest:hover {
-  text-decoration: underline;
-}
-
 .more {
   border-top: black 1px solid;
   padding-top: 30px;
@@ -541,10 +514,6 @@ article .links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-}
-
-.box-img {
-  width: 100%;
 }
 
 .news figcaption {
@@ -593,14 +562,6 @@ article .links {
   grid-template-columns: repeat(6, 1fr);
   padding-top: 20px;
   padding-bottom: 10px;
-}
-
-.index-lists a:hover {
-  text-decoration: underline;
-}
-
-.index-lists h4 {
-  margin-bottom: 5px;
 }
 
 .index-list li {
