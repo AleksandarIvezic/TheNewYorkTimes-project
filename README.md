@@ -25,9 +25,9 @@
 
 👤 **Aleksandar Ivezic**
 
-- GitHub: [@githubhandle](https://github.com/ShinobiWarior)
-- Twitter: [@twitterhandle](https://twitter.com/AIvezic)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@Aleksandar Ivezic](https://github.com/ShinobiWarior)
+- Twitter: [@AIvezic](https://twitter.com/AIvezic)
+- LinkedIn: [Aleksandar Ivezić](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
