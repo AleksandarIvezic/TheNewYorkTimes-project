@@ -175,6 +175,12 @@ figure {
   margin-bottom: 20px;
 }
 
+footer a {
+  font-size: 0.75rem;
+  color: grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .author a {
   color: black;
   border-bottom: darkgrey solid 1px;
@@ -212,7 +218,7 @@ figure {
 
 .popular a {
   font-size: 1.2rem;
-  color:black;
+  color: black;
 }
 
 .index-top a {
@@ -238,10 +244,13 @@ figure {
   font-size: 0.75rem;
 }
 
-footer a {
-  font-size: 0.75rem;
-  color: grey;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.more p {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .author a:hover {
@@ -523,11 +532,6 @@ article .links {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.more p {
-  font-size: 1.3rem;
-  margin-bottom: 0;
-}
-
 .news-boxes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -632,8 +636,4 @@ footer ul {
   display: flex;
   justify-content: space-evenly;
   padding: 15px 30px 30px 30px;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
