@@ -65,6 +65,12 @@ img {
   font-weight: bold;
 }
 
+a,
+.subscribe a,
+.article a:hover {
+  text-decoration: none;
+}
+
 footer a {
   font-size: 0.75rem;
   color: grey;
@@ -159,12 +165,6 @@ footer a:hover,
 .latest:hover,
 .index-lists a:hover {
   text-decoration: underline;
-}
-
-a,
-.subscribe a,
-.article a:hover {
-  text-decoration: none;
 }
 
 .img-nav {
