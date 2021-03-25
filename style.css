@@ -224,10 +224,6 @@ footer a:hover,
   color: white;
 }
 
-.btn:hover {
-  background-color: #326891;
-}
-
 /* Main section */
 
 .container {
@@ -632,7 +628,6 @@ footer ul {
 
 form {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
   margin-top: 20px;
 }
 
@@ -655,6 +650,10 @@ form .text {
 form .btn {
   width: 100px;
   text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #326891;
 }
 
 fieldset {
