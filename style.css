@@ -99,7 +99,15 @@ article .links {
   color: grey;
 }
 
-.card a {
+.more {
+  border-top: black 1px solid;
+  padding-top: 30px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.card a,
+.more h4 {
   color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -157,6 +165,7 @@ article .links {
 }
 
 .subscribe p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1rem;
   margin: 0;
 }
@@ -318,7 +327,20 @@ figure {
   font-weight: bold;
 }
 
-.sign-up button:hover {
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: black solid 1px;
+  color: black;
+  padding: 9px;
+}
+
+.sign-up button:hover,
+.top-right:hover {
   color: white;
   background: black;
   transition: ease 0.5s;
@@ -331,7 +353,7 @@ figure {
 .subscribe {
   text-align: center;
   line-height: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.8rem;
   margin-top: 1rem;
   font-weight: bold;
 }
@@ -493,24 +515,6 @@ figure {
   left: 20px;
 }
 
-.top-right {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  border: black solid 1px;
-  color: black;
-  padding: 9px;
-}
-
-.top-right:hover {
-  background: black;
-  color: white;
-  transition: ease 0.6s;
-}
-
 .card .l-font {
   font-size: 0.8rem;
   margin: 0;
@@ -521,17 +525,6 @@ figure {
   bottom: 15px;
   left: 10px;
   color: #326891;
-}
-
-.more {
-  border-top: black 1px solid;
-  padding-top: 30px;
-  margin-top: 30px;
-  text-align: left;
-}
-
-.more h4 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .news-boxes {
@@ -550,7 +543,8 @@ figure {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.most-popular h4 {
+.most-popular h4,
+.sub-main {
   margin-bottom: 20px;
 }
 
@@ -595,10 +589,6 @@ figure {
 #subscribe {
   border-left: 1px solid lightgray;
   padding-left: 15px;
-}
-
-.sub-main {
-  margin-bottom: 20px;
 }
 
 .sub-main img {
