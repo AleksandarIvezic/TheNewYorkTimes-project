@@ -7,11 +7,6 @@ body {
   margin: 0;
 }
 
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
-}
-
 *,
 *::before,
 *::after {
@@ -26,13 +21,19 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+p {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
 
-a:hover {
-  color: #333;
+hr {
+  color: white;
+  opacity: 0.5;
+}
+
+img {
+  width: 100%;
 }
 
 /*
@@ -40,3 +41,585 @@ a:hover {
                 ****** GLOBAL ******
     ==============================================
 */
+
+/* Navbar section */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: lightgray solid 1px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.btn-nav {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-nav:hover {
+  background-color: #f7f7f7;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a {
+  font-size: 0.75rem;
+  color: grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.author a {
+  color: black;
+  border-bottom: darkgrey solid 1px;
+}
+
+.bottom a,
+.more a {
+  color: black;
+}
+
+.article a {
+  color: #326891;
+  text-decoration: underline;
+}
+
+.pick a,
+article .links {
+  display: flex;
+}
+
+.newsletters-top a {
+  color: grey;
+}
+
+.more {
+  border-top: black 1px solid;
+  padding-top: 30px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.card a,
+.more h4 {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.popular a {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.index-top a {
+  float: right;
+  font-size: 0.8rem;
+  padding-top: 10px;
+  color: #326891;
+}
+
+.index-lists a {
+  color: black;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.sub-main a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+.sub-sub a {
+  font-size: 0.75rem;
+}
+
+.more p {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.pick p {
+  font-size: 1rem;
+  line-height: 1rem;
+  align-self: center;
+  margin: 0;
+  margin-left: 5px;
+  color: black;
+}
+
+.card p {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+
+.sign-up p {
+  width: 85%;
+  font-size: 1.2rem;
+}
+
+.subscribe p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.subscribe-bar {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: black 1px solid;
+  justify-content: space-between;
+  padding-top: 10px;
+  z-index: 1;
+}
+
+.flex-side {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
+
+button:hover,
+a:hover,
+img:hover,
+.subscribe-bar:hover {
+  cursor: pointer;
+}
+
+.nav-link:hover,
+footer a:hover,
+.pick p:hover,
+.latest:hover,
+.index-lists a:hover {
+  text-decoration: underline;
+}
+
+.article a:hover {
+  text-decoration: none;
+}
+
+.img-nav {
+  height: 2.2rem;
+}
+
+.btn {
+  background-color: #567b95;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #326891;
+}
+
+/* Main section */
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+}
+
+.header {
+  width: 1200px;
+  margin: 100px auto 0 auto;
+}
+
+.heading {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+h1 {
+  margin: 20px auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.social-networks,
+figure {
+  margin-top: 20px;
+}
+
+.social-net {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: black;
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 3px;
+  text-align: center;
+  padding-top: 5px;
+  margin: 5px;
+  border: 1px solid lightgray;
+}
+
+.social-net:hover {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.icon {
+  color: black;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.small-font {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+.author-info {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.author {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.author a:hover {
+  border: none;
+}
+
+.date {
+  font-size: 0.9rem;
+  margin-bottom: 40px;
+}
+
+.article {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.sign-up {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up button {
+  height: 2rem;
+  padding: 10px 10px;
+  background: white;
+  border: black 1px solid;
+  font-weight: bold;
+}
+
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: black solid 1px;
+  color: black;
+  padding: 9px;
+}
+
+.sign-up button:hover,
+.top-right:hover {
+  color: white;
+  background: black;
+  transition: ease 0.5s;
+}
+
+.article h2 {
+  margin: 15px 0;
+}
+
+.subscribe {
+  text-align: center;
+  line-height: 1rem;
+  margin-bottom: 1.8rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.s-line {
+  content: "";
+  width: 80px;
+  height: 1px;
+  background-color: darkgrey;
+  margin: 15px auto;
+}
+
+.picks {
+  display: flex;
+  flex-direction: column;
+  justify-self: right;
+  align-self: center;
+  justify-items: left;
+  width: 250px;
+  text-align: left;
+}
+
+.picks h5,
+.index-lists h4 {
+  margin-bottom: 5px;
+}
+
+.pick {
+  float: right;
+  display: block;
+  max-width: 200px;
+  margin: 10px 0;
+}
+
+.img-pick {
+  width: 80px;
+  height: 80px;
+}
+
+.helper {
+  content: "";
+  width: 250px;
+}
+
+.inflation {
+  position: relative;
+  width: 945px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.img-relative {
+  position: relative;
+}
+
+.boxes {
+  margin-top: 80px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
+.grid-helper {
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.xl-font {
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.l-font {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.align-left {
+  margin: 15px auto 15px 0;
+  background-color: black;
+}
+
+.s-font {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#comments-btn {
+  width: 50%;
+  height: 2.5rem;
+}
+
+.links .social-networks {
+  margin-top: 0;
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.news {
+  display: flex;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  padding-bottom: 50px;
+  text-align: left;
+  justify-content: space-between;
+  border-bottom: lightgray 2px solid;
+}
+
+.box-news {
+  width: 71%;
+  border-top: black 1px solid;
+}
+
+.newsletters {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.newsletters-top {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.most-popular {
+  width: 27%;
+  border-top: black 1px solid;
+  padding-top: 20px;
+}
+
+.cards {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  border: lightgray solid 1px;
+  width: 240px;
+  text-align: left;
+  padding: 120px 10px 30px 10px;
+}
+
+.card img {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.card .l-font {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.card .latest {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  color: #326891;
+}
+
+.news-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.news figcaption {
+  text-align: right;
+}
+
+.box > .e-date {
+  font-size: 0.8rem;
+  color: grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.most-popular h4,
+.sub-main {
+  margin-bottom: 20px;
+}
+
+.popular {
+  padding: 20px 0;
+  border-top: 1px lightgray solid;
+}
+
+.popular a:hover {
+  opacity: 0.6;
+}
+
+.index {
+  border-top: 1px lightgray solid;
+  border-bottom: 1px lightgray solid;
+  padding-top: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+}
+
+.index-top img {
+  float: left;
+  width: 184px;
+}
+
+.index-top .fas {
+  font-size: 0.5rem;
+}
+
+.index-lists {
+  clear: left;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.index-list li {
+  margin-top: 3px;
+}
+
+#subscribe {
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+}
+
+.sub-main img {
+  width: 10px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.sub-main a > i {
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+.sub-sub {
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+.underline {
+  border-bottom: lightgray 1px solid;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 30px 80px 30px;
+}
