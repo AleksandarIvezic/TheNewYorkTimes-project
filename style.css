@@ -640,11 +640,15 @@ form .overal {
 }
 
 form .text {
-  width: 400px;
+  width: 300px;
   font-size: 1rem;
   line-height: 2rem;
   margin-bottom: 3px;
   border-radius: 5px;
+}
+
+.wrapper .btn {
+  margin-top: 25px;
 }
 
 form .btn {

@@ -207,8 +207,12 @@
               </div>
               <div class="flex-container login">
                 <div class="wrapper">
-                  <input class="text" maxlength="20" type="text" placeholder="Email or Username" required><br>
-                  <input class="text" maxlength="20" type="text" placeholder="Password" required><br>
+                  <label for="name">Name</label><br>
+                  <input class="text" maxlength="20" type="text" placeholder="Name" id="name" required><br>
+                  <label for="name">Email</label><br>
+                  <input class="text" maxlength="20" type="email" placeholder="Email" required><br>
+                  <label for="name">Password</label><br>
+                  <input class="text" maxlength="20" type="password" placeholder="Password" required><br>
                 </div>
                 <div class="wrapper">
                   <input class="btn" id="login" type="submit" value="Log In"><br>
@@ -217,7 +221,8 @@
               </div>
             </fieldset>
             <fieldset>
-              <textarea maxlength="250" class="flex-container" name="comment" id="comment" cols="30" rows="10" placeholder="Add a public comment..." disabled></textarea>
+              <label for="comment">Comment</label>
+              <textarea name="comment" id="comment" maxlength="250" class="flex-container" cols="30" rows="10" placeholder="Add a public comment..."></textarea>
               <button type="submit" class="btn" id="send">Send</button>
             </fieldset>
           </form>
