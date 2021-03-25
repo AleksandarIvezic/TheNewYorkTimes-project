@@ -623,3 +623,32 @@ footer ul {
   justify-content: space-evenly;
   padding: 15px 30px 80px 30px;
 }
+
+/* Form  */
+
+form {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  margin-top: 20px;
+}
+
+form .login {
+  justify-content: space-between;
+}
+
+form .text {
+  width: 400px;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-bottom: 3px;
+  border-radius: 5px;
+}
+
+form .btn {
+  width: 100px;
+  text-transform: uppercase;
+}
+
+fieldset {
+  padding: 20px;
+}

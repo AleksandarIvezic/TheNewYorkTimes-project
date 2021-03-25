@@ -190,14 +190,23 @@
         <div class="comments">
           <form action="">
             <fieldset>
-              <h2>Log In to add a comment</h2>
-              <a href="#">Not registered</a>
-              <label>Enter your username<input type="text" placeholder="Username"></label>
-              <label>Enter your password <input type="text" placeholder="Password"></label>
-              <input type="submit" value="Log In">
+              <div class="flex-container login">
+                <h2>Log In to add a comment</h2>
+                <a href="#">Not registered</a>
+              </div>
+              <div class="flex-container login">
+                <div class="wrapper">
+                  <input class="text" type="text" placeholder="Email or Username" required><br>
+                  <input class="text" type="text" placeholder="Password" required><br>
+                </div>
+                <div class="wrapper">
+                  <input class="btn" id="login" type="submit" value="Log In"><br>
+                  <input class="btn" id="subscribe" type="submit" value="Subscribe">
+                </div>
+              </div>
             </fieldset>
             <fieldset>
-              <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Add a public comment..."></textarea>
+              <textarea class="flex-container" name="comment" id="comment" cols="30" rows="10" placeholder="Add a public comment..." disabled></textarea>
             </fieldset>
           </form>
         </div>
