@@ -196,7 +196,9 @@
               <label for="negative"><input type="radio" id="negative" value="negative">Negative </label>
               <label for="neutral"><input type="radio" id="neutral" value="neutral">Neutral </label>
               </div>
-              
+            </fieldset>
+            <fieldset>
+              <label class="xxl-font"><input type="checkbox"> I want to subscribe to the newsletter </label>
             </fieldset>
             <fieldset>
               <div class="flex-container login">
@@ -205,8 +207,8 @@
               </div>
               <div class="flex-container login">
                 <div class="wrapper">
-                  <input class="text" type="text" placeholder="Email or Username" required><br>
-                  <input class="text" type="text" placeholder="Password" required><br>
+                  <input class="text" maxlength="20" type="text" placeholder="Email or Username" required><br>
+                  <input class="text" maxlength="20" type="text" placeholder="Password" required><br>
                 </div>
                 <div class="wrapper">
                   <input class="btn" id="login" type="submit" value="Log In"><br>
@@ -215,7 +217,8 @@
               </div>
             </fieldset>
             <fieldset>
-              <textarea class="flex-container" name="comment" id="comment" cols="30" rows="10" placeholder="Add a public comment..." disabled></textarea>
+              <textarea maxlength="250" class="flex-container" name="comment" id="comment" cols="30" rows="10" placeholder="Add a public comment..." disabled></textarea>
+              <button type="submit" class="btn" id="send">Send</button>
             </fieldset>
           </form>
         </div>

@@ -430,6 +430,10 @@ figure {
   gap: 20px;
 }
 
+.xxl-font {
+  font-size: 1.8rem;
+}
+
 .xl-font {
   font-size: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
