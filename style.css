@@ -28,7 +28,8 @@ p {
 }
 
 hr {
-  color: lightgray;
+  color: white;
+  opacity: 0.5;
 }
 
 img {
@@ -43,9 +44,15 @@ img {
 
 /* Navbar section */
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 5px;
+  border-bottom: lightgray solid 1px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 .btn-nav {
@@ -236,7 +243,7 @@ footer a:hover,
 
 .header {
   width: 1200px;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
 }
 
 .heading {
