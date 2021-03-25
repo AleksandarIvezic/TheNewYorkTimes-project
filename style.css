@@ -636,6 +636,10 @@ form .login {
   justify-content: space-between;
 }
 
+form .overal {
+  justify-content: space-evenly;
+}
+
 form .text {
   width: 400px;
   font-size: 1rem;
