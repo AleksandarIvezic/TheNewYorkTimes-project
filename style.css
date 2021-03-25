@@ -647,13 +647,13 @@ form .text {
   border-radius: 5px;
 }
 
-.wrapper .btn {
-  margin-top: 25px;
-}
-
 form .btn {
   width: 100px;
   text-transform: uppercase;
+}
+
+.wrapper .btn {
+  margin-top: 25px;
 }
 
 .btn:hover {
