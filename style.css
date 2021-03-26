@@ -636,7 +636,11 @@ form .login {
 }
 
 form .overal {
-  justify-content: space-evenly;
+  justify-content: left;
+}
+
+.overal label {
+  margin-right: 30px;
 }
 
 form .text {
@@ -650,6 +654,10 @@ form .text {
 form .btn {
   width: 100px;
   text-transform: uppercase;
+}
+
+form #send {
+  margin-top: 20px;
 }
 
 .wrapper .btn {
