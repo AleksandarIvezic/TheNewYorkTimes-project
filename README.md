@@ -2,7 +2,7 @@
 
 # The New York Times
 
-> Microverse first week project.
+> Microverse first-week project.
 
 ![screenshot](https://github.com/ShinobiWarior/TheNewYorkTimes-project/blob/development/img/Screenshot%20.png?raw=true)
 
